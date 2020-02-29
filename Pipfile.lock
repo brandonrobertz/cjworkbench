@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "2f8cb762510e2f6a6a5535c6ea7fff34ecbba28f2dd2eaa3f4597b018560bd49"
+            "sha256": "98b2ccc53a40d1d15cbadfc4020a2dad1a542ef9c557bbb229c2d96567640f9b"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -115,10 +115,10 @@
         },
         "autoscrape": {
             "hashes": [
-                "sha256:43cd65958bd211e3c1ecfc1d0e41bfc8fa055734510d51dd29e8efec64657bf0"
+                "sha256:7c015c885be60ea700f7dc9daa9ba21fab4525975635ead89fdc2980e5208003"
             ],
             "index": "pypi",
-            "version": "==1.2.0"
+            "version": "==1.2.5"
         },
         "babel": {
             "hashes": [
@@ -139,18 +139,18 @@
         },
         "boto3": {
             "hashes": [
-                "sha256:0542e1e7e2ed8a7b0d3d1b513ec2252328df7eab351d0642677dd72126826948",
-                "sha256:65561a89339d8cc265a048560381b6771f9a06f4224e7741d0dc01808f5ba28f"
+                "sha256:41cb779ff393a9a0a3e9dccce7689ec10c383c18deb5c69059181db8c0ccecc3",
+                "sha256:b21d781a7fb0bfa50771362c3495e30dc3cddd7e91d65c21bcb9fe37acf36b1e"
             ],
             "index": "pypi",
-            "version": "==1.12.10"
+            "version": "==1.12.11"
         },
         "botocore": {
             "hashes": [
-                "sha256:2a1c043a21d66073e2de5375f3a22ddc2d27746b849b350a1430eea80aef2752",
-                "sha256:7354b6cee534dfad3c6d979c454f7a7b8c41fd5ac3ecf72e6b4578a49b31eee5"
+                "sha256:35d553b8975a3810010fabb885e42d1bbc97bdae52c873f7640a2dd87772c455",
+                "sha256:87a53301ee9e32e776d2d805c121753091fbddc3457dfdb8d6bdf7dbd945295a"
             ],
-            "version": "==1.15.10"
+            "version": "==1.15.11"
         },
         "cchardet": {
             "hashes": [
@@ -423,9 +423,9 @@
         },
         "hstspreload": {
             "hashes": [
-                "sha256:a1ba0c2730593a1922f93cd9c66ff620248090656102bf31e4559c01d7935e05"
+                "sha256:519feba70b0d490ac161d60120923e5d1d2abf23e72eeac4ac8622f6f518c50d"
             ],
-            "version": "==2020.2.25"
+            "version": "==2020.2.29"
         },
         "html5lib": {
             "hashes": [
