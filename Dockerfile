@@ -85,13 +85,13 @@ RUN mkdir -p /root/.local/share/virtualenvs \
 COPY --from=watchman-bin /usr/bin/watchman /usr/bin/watchman
 COPY --from=watchman-bin /usr/var/run/watchman /usr/var/run/watchman
 
-## Add "mc" command, so we can create a non-root user in minio (for STS).
-#COPY --from=mc /usr/bin/mc /usr/bin/mc
-
 # Add "mc" command, so we can create a non-root user in minio (for STS).
-RUN true \
-     && curl https://dl.min.io/client/mc/release/linux-amd64/archive/mc.RELEASE.2020-02-25T18-10-03Z -o /usr/bin/mc \
-     && chmod +x /usr/bin/mc
+COPY --from=mc /usr/bin/mc /usr/bin/mc
+
+## Add "mc" command, so we can create a non-root user in minio (for STS).
+#RUN true \
+#     && curl https://dl.min.io/client/mc/release/linux-amd64/archive/mc.RELEASE.2020-02-25T18-10-03Z -o /usr/bin/mc \
+#     && chmod +x /usr/bin/mc
 
 COPY cjwkernel/setup-chroot-layers.sh /tmp/setup-chroot-layers.sh
 RUN /tmp/setup-chroot-layers.sh && rm /tmp/setup-chroot-layers.sh
